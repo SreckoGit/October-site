@@ -1,0 +1,48 @@
+a {
+    /* //this is relative so parent */
+    font-size: 0.5em;
+}
+
+nav {
+    background-color: orange;
+    font-size: 10pt;
+}
+
+h1{
+    background-color: red;
+    /* this is relative to view,  screen size */
+    font-size: 5vw;
+    /* this one does not display an item and does not reserve space */
+    /* display:none; 
+    /* visibility: hidden; */  
+    /* visibility can make item hidden but still reserves the space */
+    
+
+}
+
+p {
+    background-color: yellow;
+}
+
+img {
+    height: 500px;
+    width: 800px;
+}
+
+.extra-large{
+    height: 600px;
+    width: 900px;
+}
+
+#some-text {
+    color: skyblue;
+    background-color:green ;
+    display: inline
+}
+
+#about{
+    position: relative;
+    top:25px;
+    right: 50px;
+    background-color: black;
+}
